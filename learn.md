@@ -17,4 +17,6 @@
 4. 实际操作常用的一些语法(mysql 要用 ; 或者 \g 来结束这一行的命令):
 - 展示数据源，这样可以看到所有的数据库 ```show databases;```
 - 使用数据源中的某个数据库 ```use crashcourse;``` crashcourse 就是你要使用的数据库的名称
-- 显示当前所在的数据有很多种方法 ```status;``` ```show tables;``` ```select database();``` 
+- 显示当前所在的数据有很多种方法 ```status;``` ```show tables;``` ```select database();```
+- 选中某一列 ```SELECT prod_id;``` SELECT + 列名
+- 

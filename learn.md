@@ -19,4 +19,8 @@
 - 使用数据源中的某个数据库 ```use crashcourse;``` crashcourse 就是你要使用的数据库的名称
 - 显示当前所在的数据有很多种方法 ```status;``` ```show tables;``` ```select database();```
 - 选中某一列 ```SELECT prod_id;``` SELECT + 列名
-- 
+- LIKE 
+- REGEXP 
+- 利用 Concat() 来实现拼接 ```Concat('abc','cde');``` 最终得到的结果就是abccde
+- 利用 AS 来实现别名 ```quantity*item_price AS expanded_price``` 这样客户机就可以使用 expanded_price 来进行一些相关的数据操作
+- ```RTrim()``` ```LTrim()``` ```Trim()``` 分别实现去除数据右边的空格，左边的空格，两边的空格 
